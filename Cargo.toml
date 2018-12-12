@@ -1,0 +1,12 @@
+[package]
+name = "gaga"
+version = "0.1.0"
+authors = ["tbrand <taichiro0709@gmail.com>"]
+
+[dependencies]
+reqwest = "*"
+failure = "*"
+
+[dependencies.k8s-openapi]
+version = "*"
+features = ["v1_10"]
